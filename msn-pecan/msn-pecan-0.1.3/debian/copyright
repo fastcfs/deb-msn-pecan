@@ -1,0 +1,61 @@
+This package was debianized by Devid Antonio Filoni <d.filoni@ubuntu.com> on
+Sun, 15 Jun 2008 21:20:54 +0200.
+
+It was downloaded from http://code.google.com/p/msn-pecan/
+
+Upstream Author: 
+
+    Felipe Contreras <felipe.contreras@gmail.com>
+
+Copyright: 
+
+    Copyright © 2006-2009, Felipe Contreras
+    Copyright © 1998-2006, Pidgin (see pidgin-copyright)
+    Copyright © 2008-2009, Devid Antonio Filoni
+    Copyright © 2006-2008, Youness Alaoui
+    Copyright © 2003-2004, Stuart Caie
+    Copyright © 2004, Tor Lillqvist
+    Copyright © 2005, Sanoi
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+ 
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+ 
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+The Debian packaging is © 2008-2009, Devid Antonio Filoni <d.filoni@ubuntu.com> and
+is licensed under the GPL-2, see above.
+
+
+License of Siren Encoder/Decoder and libmspack libraries:
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public
+    License along with this library; if not, write to the
+    Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+    Boston, MA  02110-1301, USA.
+
+On Debian systems, the complete text of the GNU Library General
+Public License can be found in `/usr/share/common-licenses/LGPL-2'.

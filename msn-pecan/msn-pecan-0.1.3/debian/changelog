@@ -1,0 +1,107 @@
+msn-pecan (0.1.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove disable-directconn patch to enable direct connections support.
+
+  [ Luca Falavigna ]
+  * Enable DM upload.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Sun, 04 Sep 2011 13:46:49 +0200
+
+msn-pecan (0.1.2-1) unstable; urgency=low
+
+  * New upstream release (Closes: #624733).
+  * debian/rules: remove get-orig-source target.
+  * Bump Standards-Version to 3.9.2.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Mon, 09 May 2011 20:53:38 +0200
+
+msn-pecan (0.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch to debhelper 7.
+  * Switch to format 3.0 (quilt).
+  * debian/patches/disable-directconn.patch: disable direct connections
+    support.
+  * debian/watch: fix link and check only for stable releases.
+  * debian/rules: adjust get-orig-source target to download only stable
+    releases tarballs.
+  * Bump Standards-Version to 3.9.1.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Thu, 09 Sep 2010 23:18:35 +0200
+
+msn-pecan (0.1.0~rc2-1) unstable; urgency=low
+
+  * New upstream release (Closes: #547580).
+  * Fix debhelper-but-no-misc-depends lintian warnings.
+  * Bump Standards-Version to 3.8.3.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Mon, 28 Dec 2009 18:55:12 +0100
+
+msn-pecan (0.1.0~rc1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #528231).
+  * Add pidgin-copyright to debian/docs.
+  * debian/control: set libpurple-dev to >= 2.5.0 in Build-Depends field.
+  * debian/control: update msn-pecan and msn-pecan-dbg Description fields.
+  * Update debian/copyright file.
+  * Update debian/watch file.
+  * debian/rules: modify get-orig-source target in order to generate rc
+    releases tarballs too.
+  * Fix wrong-section-according-to-package-name lintian warning.
+  * Bump Standards-Version to 3.8.2.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Mon, 10 Aug 2009 23:34:29 +0200
+
+msn-pecan (0.0.18-1) unstable; urgency=low
+
+  * New upstream release (Closes: #511585).
+  * Provide msn-pecan-dbg package.
+  * Update msn-pecan Description field in debian/control.
+  * Update debian/copyright.
+  * Remove msn-pecan Replaces field in debian/control.
+  * Makefile: do not install russian translation, fix FTBFS.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Mon, 16 Feb 2009 18:31:29 +0100
+
+msn-pecan (0.0.16-1) unstable; urgency=low
+
+  * New upstream release.
+  * Adjust GPL-2 complete text link in debian/copyright.
+  * Adjust get-orig-source target in debian/rules.
+  * Add AUTHORS to debian/docs.
+  * Update msn-pecan Description field in debian/control.
+  * Fix executable-not-elf-or-script lintian warnings.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Mon, 15 Sep 2008 17:19:09 +0200
+
+msn-pecan (0.0.14-3) unstable; urgency=low
+
+  * Update my email address.
+  * Adjust get-orig-source target in debian/rules to use uscan to download the
+    upstream tarball.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Thu, 07 Aug 2008 00:34:04 +0200
+
+msn-pecan (0.0.14-2) unstable; urgency=low
+
+  * Change source name to msn-pecan because msn-pecan is a MSN protocol not
+    only a plugin for pidgin.
+  * Rename pidgin-msn-pecan package to msn-pecan, also add a Replaces field
+    with pidgin-msn-pecan in debian/control.
+  * Add libpurple-dev instead of pidgin-dev to Build-Depends field in
+    debian/rules.
+  * Remove dh_pidgin call from debian/rules.
+  * Remove ${misc:Depends} from msn-pecan Depends field in debian/control.
+  * Adjust package description.
+  * Adjust get-orig-source target in debian/rules.
+  * Modify Standards-Version from 3.8.0.1 to 3.8.0, so I don't need to change
+    it for each 3.8.0.* version.
+
+ -- Devid Antonio Filoni <d.filoni@techemail.com>  Mon, 14 Jul 2008 22:17:22 +0200
+
+pidgin-msn-pecan (0.0.14-1) unstable; urgency=low
+
+  * Initial release (Closes: #486457).
+
+ -- Devid Antonio Filoni <d.filoni@techemail.com>  Thu, 19 Jun 2008 13:10:54 +0200

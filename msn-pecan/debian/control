@@ -1,0 +1,33 @@
+Source: msn-pecan
+Section: net
+Priority: extra
+Maintainer: Devid Antonio Filoni <d.filoni@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50~), libpurple-dev (>= 2.5.0)
+Standards-Version: 3.9.2
+DM-Upload-Allowed: yes
+Homepage: http://code.google.com/p/msn-pecan/
+
+Package: msn-pecan
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: alternative MSN protocol plug-in for libpurple
+ msn-pecan is an alternative and improved implementation of the MSN protocol
+ plug-in for libpurple.
+ .
+ It's based on the code from 2.2.2 but slowly becoming a completely different
+ code. The project aims to have a much faster development process, low barrier
+ for contributions, and close contact with the user-base.
+
+Package: msn-pecan-dbg
+Section: debug
+Architecture: any
+Depends: ${misc:Depends}, msn-pecan (= ${binary:Version})
+Description: debugging symbols for msn-pecan
+ msn-pecan is an alternative and improved implementation of the MSN protocol
+ plug-in for libpurple.
+ .
+ It's based on the code from 2.2.2 but slowly becoming a completely different
+ code. The project aims to have a much faster development process, low barrier
+ for contributions, and close contact with the user-base.
+ .
+ This package contains the debugging symbols associated with msn-pecan.
